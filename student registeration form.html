@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" href="form.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>STUDENT REGISTERATION FORM</h1>
+    <form id="form">
+      <div class="form__control">
+        <label for="name" id="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your Name" required>
+    <br>
+        <label for="dob" id="dob">Date of Birth</label>
+        <input type="text" id="dob" placeholder="Date/Month/Year" required>
+        <br>
+        <br>
+        <select id="role" name="role">
+                <option value="ssc">SCC</option>
+                <option value="cbse">CBSE</option>
+        </select>
+        <br>
+        <label for="number" id="number">HallTicket Number</label>
+        <input type="text" id="number"  required>
+        <br>
+        <label for="name" id="name">Institute Name</label>
+        <input type="text" id="name" value="" required>
+        <br>
+        <label for="name" id="name">Branch</label>
+        <label for="name">CSE</label>
+        <input type="radio" name="cse"><br>
+        <label for="name">IT</label>
+        <input type="radio" name="IT">
+        <label for="name">EEE</label>
+        <input type="radio" name="eee">
+        <label for="name">ECE</label>
+        <input type="radio" name="ece">
+        <label for="name">MECH</label>
+        <input type="radio" name="mech">
+        <br>
+        <label for="mail">Email</label>
+        <input type="text" name="mail" placeholder="@mail">
+        <br>
+        <label for="number">Phone NUmber</label>
+        <input type="text" name="number" value="+91">
+        <br>
+        <label for="comment">Quires</label>
+        <textarea name="quires" rows="5" cols="80"></textarea>
+        <button type="submit" name="submit">submit</button>
+
+      </div>
+    </form>
+  </body>
+</html>
